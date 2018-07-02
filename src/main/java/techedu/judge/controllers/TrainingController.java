@@ -34,7 +34,7 @@ public class TrainingController {
 			return "404";
 		}
 
-		model.addAttribute ("name", "Courses");
+		model.addAttribute ("name", "Tracks");
 		model.addAttribute ("prefix", "/course");
 		model.addAttribute ("courses", currentTrack);
 
@@ -53,7 +53,7 @@ public class TrainingController {
 			return "404";
 		}
 
-		model.addAttribute ("name", "Tracks");
+		model.addAttribute ("name", "Courses");
 		model.addAttribute ("prefix", "/track");
 		model.addAttribute ("courses", currentTrack);
 
