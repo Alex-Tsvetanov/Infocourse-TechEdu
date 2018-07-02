@@ -34,8 +34,8 @@ public class TrainingController {
 			return "404";
 		}
 
-		model.addAttribute ("track.name", currentTrack.get (0).getName ());
-		model.addAttribute ("track.prefix", "/course");
+		model.addAttribute ("name", currentTrack.get (0).getName ());
+		model.addAttribute ("prefix", "/course");
 		model.addAttribute ("courses", currentTrack);
 
 		return "training";
